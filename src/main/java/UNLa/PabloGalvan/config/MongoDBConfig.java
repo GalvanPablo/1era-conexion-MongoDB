@@ -30,7 +30,4 @@ public class MongoDBConfig {
         return properties.getProperty("mongodb.database");
     }
 
-    public static String getCollectionName() {
-        return properties.getProperty("mongodb.collection");
-    }
 }
